@@ -1,6 +1,7 @@
 import {menu} from './menu.js'
 import{about} from './aboutUs'
 import { home } from './home.js';
+import './style.css';
 
 (() =>{
     const mother = document.getElementById('content')
@@ -9,6 +10,10 @@ import { home } from './home.js';
         const header = document.createElement('div');
         const title = document.createElement('div');
         const tabs = document.createElement('div');
+
+        header.classList.add('header');
+        title.classList.add('title');
+        tabs.classList.add('tabs')
         
         const home_button = document.createElement('button');
         const menu_button = document.createElement('button');
@@ -46,9 +51,6 @@ import { home } from './home.js';
         function clearBoard(){
             container.innerHTML = "";
         }
-        window.onload = () =>{
-            container.appendChild(home());
-        }
+        container.appendChild(home());
         
-
 })();

@@ -1,5 +1,8 @@
 export function home(){
     const container = document.createElement('div');
-    container.innerHTML = "<h1> WELCOME TO GREEN OLIVE </h1>"
+    const title = document.createElement('div');
+    title.textContent = "Welcome to Green Olive!";
+    title.classList.add('title');
+    container.appendChild(title);
     return container
 }
