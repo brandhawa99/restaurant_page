@@ -9,6 +9,8 @@ body {
   justify-content: space-between;
   height: 3rem;
   box-sizing: border-box;
+  width: 100vw;
+  min-width: 410px;
 }
 .title {
   font-size: xx-large;
@@ -29,4 +31,15 @@ button {
 button:hover {
   background-color: #4aaca0;
   transition: background-color 0.5s ease;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100vw;
+}
+.intro {
+  width: 90vw;
+  line-height: 1.5;
 }

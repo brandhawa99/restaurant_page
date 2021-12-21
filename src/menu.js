@@ -8,6 +8,7 @@ export function menu(){
 
     title.textContent = "Menu"
     title.classList.add('title');
+    container.classList.add('container')
 
 
     app.textContent = "peanuts \n cucumber \n white bread with butter \n"

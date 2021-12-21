@@ -8,6 +8,7 @@ function about(){
     const review = document.createElement('li');
 
     title.classList.add('title');
+    footer.classList.add('container')
 
     title.textContent = "About Us";
     phone.textContent = "Phone# 123-132-1234";
