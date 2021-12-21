@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #e9c46a;
+  justify-content: space-between;
+  height: 3rem;
+  box-sizing: border-box;
+}
+.title {
+  font-size: xx-large;
+  padding: 1rem;
+}
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+button {
+  border: none;
+  padding: 4px 10px 4px 10px;
+  background-color: #84dad0;
+  transition: background-color 0.5s ease;
+  border-radius: 0.25rem;
+}
+button:hover {
+  background-color: #4aaca0;
+  transition: background-color 0.5s ease;
+}
